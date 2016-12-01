@@ -211,7 +211,9 @@
    *   passing 2 additional arguments
    *     event, 'light-green'
    */
-
+  btn12.addEventListener('click', function(event) {
+    setLight12Class(event, 'light-green');
+  });
 
   /*
    * Add a click event listener to btn13
