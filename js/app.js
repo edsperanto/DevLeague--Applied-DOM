@@ -27,7 +27,10 @@
    * use a dom method to select an element where it's ID matches the value of lightId
    * on this dom element, set the className to the value of desiredClass
    */
-
+   function setMyLightClass(event, desiredClass) {
+    var lightId = this.dataset.lightId;
+    document.getElementById(lightId).className = desiredClass;
+   }
 
   /*
    * Declare 14 constants btn1, btn2, btn3,...
