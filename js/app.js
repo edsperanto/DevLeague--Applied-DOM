@@ -200,7 +200,7 @@
    * using the Function prototype method: bind
    * to set the context to the btn12 object
    */
-
+  const setLight12Class = setMyLightClass.bind(btn12);
 
   /*
    * Add a click event listener to btn12
