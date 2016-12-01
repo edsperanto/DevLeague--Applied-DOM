@@ -182,7 +182,7 @@
    *   passing 2 additional hardcoded arguments:
    *     null, 'light-green'
    */
-
+  const setLight11Green = setMyLightClass.bind(btn10, null, 'light-green');
 
   /*
    * Add a click event listener to btn11
