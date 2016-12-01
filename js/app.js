@@ -229,7 +229,7 @@
    *     event, 'light-green'
    */
   btn13.addEventListener('click', function(event) {
-    setMyLightClass.bind(this, event, 'light-green');
+    setMyLightClass.bind(this)(event, 'light-green');
   });
 
   /*
@@ -238,7 +238,7 @@
    * that is the result of invoking the Function prototype method, bind
    * on the setMyLightGreen function
    */
-
+  btn14.addEventListener('click', setMyLightGreen.bind(btn14));
 
   /*
    * Add a click event listener to btn15
