@@ -11,7 +11,10 @@
    * use a dom method to select an element where it's ID matches the value of lightId
    * on this dom element, set the className to 'light-green'
    */
-
+  function setMyLightGreen() {
+    var lightId = this.dataset.lightId;
+    document.getElementById(lightId).className = 'light-green';
+  }
 
   /*
    * Create a function named setMyLightClass
